@@ -163,17 +163,6 @@ public class problem56 {
             }
         }
     }
-    public static void paint(char[][] map){
-        int n = map.length;
-        int m = map[0].length;
-        System.out.println();
-        for (int i = 0;i < n;i++){
-            for (int j = 0;j < m;j++){
-                System.out.printf(map[i][j] + " ");
-            }
-            System.out.println();
-        }
-    }//调试用
 }
 /*
 这里由于这个题目给出了简单化条件：死路最多为一格

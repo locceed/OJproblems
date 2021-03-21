@@ -21,7 +21,7 @@ public class problem56 {
             }
         }
         return map;
-    }// int[行][列]
+    }// char[行][列]
     public static String[] getAdjacentLocation(int x,int y,int n,int m){//做了一点修改，现在会按(右下左上)的顺序寻路
         String[] result = new String[4];
         if((x - 1) >= 0){

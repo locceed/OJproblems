@@ -58,19 +58,12 @@ public class problem76 {
 }
 //尝试用较少的内存达成目标?
 /*
+思路
+新建一个数组,作为输出数组,开始时从前写入,若遇到非递增就从末向前写,
+之后判断每次递增的个数是不是大于前一次的,若是就换边(前后)开始写,不是就直接在这边复写.
+由于最坏情况是整个数组递增,所以我这样写空间算比较少的吧
+ */
+/*
 30
 1 2 3 4 5 6 7 8 9 10 4 5 6 7 8 3 4 5 6 7 8 5 6 4 3 9 0 8 5 3
-
- */
-
-/*
-
-        for(int i : input){
-            System.out.printf("%d ",i);
-        }
-        System.out.println();
-        for(int i : result){
-            System.out.printf("%d ",i);
-        }
-        System.out.println();
  */

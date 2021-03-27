@@ -16,7 +16,7 @@ public class problem12 {
         int m = Integer.parseInt(initCondition.split(" ")[1]);
         int[][] matrix = new int[n][m];
         String temp = "";
-        String[] tempLine =new String[m];
+        String[] tempLine = new String[m];
         for (int i = 0;i < n;i++){
             temp = scanner.nextLine();
             tempLine = temp.split(" ");

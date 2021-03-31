@@ -159,5 +159,5 @@ public class problem82 {
 }
 /*
 试试自己学个Reader的实现试试
-思路:写程序犯懒,直接给原来的map加上一个边框防止out of range,之后对每个点爆找就行
+思路:写程序犯懒,直接给原来的map加上一个边框防止out of range,之后对每个点爆找就行.
  */
